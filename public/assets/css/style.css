@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  padding: 10px;
+}
+/* .header {
+    display: flex;
+
+    align-items: center;
+  } */
+
+/* style navbar */
+.style-nav {
+  box-shadow: 1px 1px 1px 1px cyan;
+}
+
+.backgroundImage {
+  background: url('../img/images.jpg');
+}
+p,
+h1 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.nogap > .col {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.nogap > .col:first-child {
+  padding-left: 15px;
+}
+.nogap > .col:last-child {
+  padding-right: 15px;
+}
